@@ -1,0 +1,70 @@
+/* nav bar */
+nav {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  /* color: white; */
+  /* width: 100vw; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav div a {
+  color: rgb(132, 130, 130);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#logo {
+  width: 90px;
+  height: 20px;
+}
+
+/* main container exclude navbar */
+.main {
+  width: 90%;
+  margin: auto;
+  background-color: wheat;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  /* padding-left: 2.5%;
+  padding-right: 2.5%; */
+  padding-top: 55px;
+}
+
+/* video player */
+.section1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 69%;
+  height: 500px;
+  background-color: white;
+}
+
+.video {
+  height: 100%;
+}
+
+/* side nav */
+.section2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 29%;
+  height: 1000px;
+  background-color: white;
+}
